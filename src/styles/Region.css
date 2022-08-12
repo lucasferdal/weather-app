@@ -1,0 +1,14 @@
+.Region {
+    background-color: rgb(195, 248, 248);
+    width: 18rem;
+    height: 27rem;
+    border-radius: 2rem;
+    border: solid black 0.1rem;
+}
+
+
+.Region:hover {
+    width: 20rem;
+    height: 30rem;
+    transform: 0.10seg;
+}
