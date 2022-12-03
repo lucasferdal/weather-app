@@ -1,0 +1,21 @@
+/* .zona {
+    width: 70rem;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 2rem auto 4rem auto;
+    border: solid 1px black; 
+    border-radius: 2rem 2rem 0 0; 
+} */
+
+.zona {
+    border: solid 1px black;
+    height: 20rem;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.zona:hover {
+    height: 20.5rem;
+    transition: .5s;
+}
