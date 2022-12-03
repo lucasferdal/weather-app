@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/Region.css';
 
+<<<<<<< HEAD
 const Region = (informacion) => {
     // console.log(informacion)
     return (
@@ -25,5 +26,12 @@ const Region = (informacion) => {
         </div>
     )
 }
+=======
+const Region = () => (
+    <div className="Region">
+        {/* <h2>Este es el tiempo en tu region</h2> */}
+    </div>
+)
+>>>>>>> a056f843f14a66768ce256a118d8d5506f2d3192
 
 export default Region;

@@ -1,10 +1,18 @@
 {
+<<<<<<< HEAD
   "name": "weather-app",
+=======
+  "name": "tiempoapp",
+>>>>>>> a056f843f14a66768ce256a118d8d5506f2d3192
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
+<<<<<<< HEAD
     "@testing-library/react": "^13.4.0",
+=======
+    "@testing-library/react": "^13.3.0",
+>>>>>>> a056f843f14a66768ce256a118d8d5506f2d3192
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

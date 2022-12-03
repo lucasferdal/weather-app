@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useRef, useEffect } from 'react';
 import { render } from "@testing-library/react";
 import * as ReactDOM from 'react-dom/client';
@@ -131,5 +132,39 @@ function App() {
     </div>
   );
 }
+=======
+import './App.css';
+import Region from './components/Region.js';
+
+const App = () => (
+  <div>
+
+    <header>
+      <h1>Como esta el tiempo?</h1>
+    </header>
+
+    <div className='buscarRegion'>
+      <input types="button" id='buscar' placeholder='Busca tu ciudad'/>
+      <input type="submit" id='enviar' />
+    </div>
+
+      <h2>Asi se vera el tiempo en los proximos dias</h2>
+      
+    <div className='regiones'>
+
+      <Region>
+      </Region>
+      
+      <Region>
+      </Region>
+
+      <Region>
+      </Region>
+
+    </div>
+
+  </div>
+)
+>>>>>>> a056f843f14a66768ce256a118d8d5506f2d3192
 
 export default App;
